@@ -1,0 +1,47 @@
+
+/* Home */
+
+.Tabs {
+    margin: 10px;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 10px;
+    width: 50%;
+}
+
+.questions-list {
+    padding: 0;
+    margin: 10px;
+}
+
+.questions-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 250px;
+    border-bottom: 3px solid pink;
+}
+
+.view-poll {
+    background-color: pink;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.home-item-link {
+    text-decoration: none;
+    color: black;
+}
+
+.view-poll:hover {
+    border: white;
+    color: white;
+}
+
+.home-item-link:hover {
+    color: white;
+}

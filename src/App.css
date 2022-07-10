@@ -1,0 +1,218 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* App */
+
+.App {
+    min-height: 100vh;
+    overflow: hidden;
+    background-image: url('banner-1090830.jpg');
+    background-size: cover;
+}
+
+.overlay {
+    background-color: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+/* Components */
+
+.content {
+    text-align: center;
+    border: 3px solid pink;
+    border-radius: 10px;
+    margin: 100px 200px;
+    background-color: white;
+}
+
+.btns {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 50%;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    border-color: white;
+    color: white;
+}
+
+.first-btn {
+    background-color: pink;
+}
+
+.second-btn {
+    background-color: rgb(205, 0, 69);
+    margin-top: 5px;
+}
+
+.name {
+    text-align: left;
+    padding: 10px;
+}
+
+.img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+/* Sign in */
+
+.select {
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+/* Answered */
+
+.answered-question {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 250px;
+}
+
+.answered-question-option-text {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.answered-question-options-info {
+    margin-top: 50px;
+}
+
+.answered-question-option-info {
+    border-left: 1px solid pink;
+    padding: 10px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Unanswered */
+
+.unanswered-question {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 250px;
+}
+
+.unanswered-question-option {
+    text-align: left;
+}
+
+.or {
+    padding: 10px;
+}
+
+.unanswered-question-btn,
+.create-a-new-user-btn {
+    padding: 10px;
+    margin: 10px;
+    background-color: pink;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.unanswered-question-btn:hover,
+.create-a-new-user-btn:hover {
+    border-color: white;
+    color: white;
+}
+
+/* Add question */
+
+.add-question-input {
+    width: 50%;
+}
+
+.add-question-btn {
+    background-color: pink;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.add-question-btn:hover {
+    border-color: white;
+    color: white;
+}
+
+
+/* Leaderboard */
+
+.leaderboard-list {
+    padding: 0;
+    margin: 10px;
+}
+
+.leaderboard-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 250px;
+    border-bottom: 3px solid pink;
+}
+
+.questions-info {
+    margin: 10px;
+    padding: 10px;
+    border-left: 1px solid pink;
+    text-align: left;
+}
+
+.score {
+    padding: 20px;
+    font-weight: bold;
+    background-color: pink;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+}
+
+.create-contact-avatar-input {
+    width: 60px;
+    height: 60px;
+    background-color: pink;
+    background-image: url('./icons/person.svg');
+    background-size: 32px 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: auto;
+    cursor: pointer;
+}
+
+.create-contact-avatar-input input {
+    cursor: pointer;
+}
